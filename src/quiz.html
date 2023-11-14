@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Codex | Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navigationbar">
+            <ul>
+                <li><img src="../assets/pokeball.png" width="45" height="45"></li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./pokedex.html">Pokedex</a></li>
+                <li><a href="./typechart.html">Type Chart</a></li>
+                <li><a class="active">Quiz</a></li>
+                <li id="about"><a>About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the Pokemon Quiz!</h1>
+        <p>This is the ultimate test to determine how big of a pokemon fan you are! Things will get hard. Things will get difficult. Things will get challenging. Things may seem impossible, but you must never give up! After all, you must catch them all!</p>
+        <br />
+        <br />
+        <form>
+            <section class="multiplechoice">
+                <span>Q.1 What famous pokemon is Ash Ketchump's partner throughout his journies?</span>
+                <br />
+                <input type="radio" name="partner" id="meowth" value="meowth">
+                <label for="meowth">Meowth</label>
+                <br />
+                <input type="radio" name="partner" id="pikachu" value="pikachu">
+                <label for="pikachu">Pikachu</label>
+                <br />
+                <input type="radio" name="partner" id="lickitung" value="lickitung">
+                <label for="lickitung">Lickitung</label>
+
+                <br />
+                <br />
+
+                <span>Q.2 Which of the following is a fire pokemon?</span>
+                <br />
+                <input type="radio" name="fire" id="hooh" value="hooh">
+                <label for="hooh">Ho-oh</label>
+                <br />
+                <input type="radio" name="fire" id="bidoof" value="bidoof">
+                <label for="bidoof">Bidoof</label>
+                <br />
+                <input type="radio" name="fire" id="plusle" value="plusle">
+                <label for="plusle">Plusle</label>
+
+                <br />
+                <br />
+
+                <span>Q.3 Which of the following pokemon has eight evolutions?</span>
+                <br />
+                <input type="radio" name="evolutions" id="girafarig" value="girafarig">
+                <label for="girafarig">Girafarig</label>
+                <br />
+                <input type="radio" name="evolutions" id="magikarp" value="magikarp">
+                <label for="magikarp">Magikarp</label>
+                <br />
+                <input type="radio" name="evolutions" id="eevee" value="eevee">
+                <label for="eevee">Eevee</label>
+
+
+                <br />
+                <br />
+            </section>
+
+            <section class="multipleanswers">
+                <span>Q.3 Which of the following are legendary pokemon?</span>
+                <br />
+                <input type="checkbox" name="legendary" id="suicune" value="suicune">
+                <label for="suicune">Suicune</label>
+                <input type="checkbox" name="legendary" id="snom" value="snom">
+                <label for="snom">Snom</label>
+                <input type="checkbox" name="legendary" id="latias" value="latias">
+                <label for="latias">Latias</label>
+                <input type="checkbox" name="legendary" id="ghastly" value="ghastly">
+                <label for="ghastly">Ghastly</label>
+                <input type="checkbox" name="legendary" id="urshifu" value="urshifu">
+                <label for="urshifu">Urshifu</label>
+            </section>
+
+            <section class="submission">
+                <br />
+                <br />
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+    </main>
+</body>
+</html>

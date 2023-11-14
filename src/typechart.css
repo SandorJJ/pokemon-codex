@@ -1,0 +1,106 @@
+table {
+    font-size: 13px;
+    color: white;
+    text-shadow: 1px 1px black;
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+#corner {
+    color: black;
+    font-size: 11px;
+    text-shadow: none;
+}
+
+#normal {
+    background-color: #c4bfa3;
+}
+
+#fire {
+    background-color: #fc6b03;
+}
+
+#water {
+    background-color: #0384fc;
+}
+
+#electric {
+    background-color: #fcd703;
+}
+
+#grass {
+    background-color: #40db3d;
+}
+
+#ice {
+    background-color: #76ddf5;
+}
+
+#fighting {
+    background-color: #781a1a;
+}
+
+#poison {
+    background-color: #5f1782;
+}
+
+#ground {
+    background-color: #dbbf58;
+}
+
+#fly {
+    background-color: #96cbd6;
+}
+
+#psychic {
+    background-color: #f7319e;
+}
+
+#bug {
+    background-color: #a3db4f;
+}
+
+#rock {
+    background-color: #c4a86c;
+}
+
+#ghost {
+    background-color: #4d3b9c;
+}
+
+#dragon {
+    background-color: #3e21c2;
+}
+
+#dark {
+    background-color: #262625;
+}
+
+#steel {
+    background-color: #a8a7a5;
+}
+
+#fairy {
+    background-color: #f0a1e9;
+}
+
+#weak {
+    background-color: #c40502;
+}
+
+#strong {
+    background-color: #008f05;
+}
+
+#immune {
+    background-color: black;
+}

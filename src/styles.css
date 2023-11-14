@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font: bold 16px cambria, arial, verdana;
+    background-color: lightgray;
+}
+
+main {
+    padding-top: 34px;
+}
+
+.navigationbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigationbar ul li {
+        float: left;
+    }
+
+.navigationbar ul #about {
+        float: right;
+    }
+
+.navigationbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 18px 18px;
+        text-decoration: none;
+    }
+
+.navigationbar ul li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+.navigationbar ul li .active {
+        background-color: #ad0000;
+        cursor: default;
+    }
+
+.navigationbar ul li img {
+    padding: 5px 10px 0px;
+    vertical-align: middle;
+}
+
+input[type=radio]:checked {
+    accent-color: #ad0000;
+}
+
+input[type=checkbox]:checked {
+    accent-color: #ad0000;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #333;
+}
+
+    input[type=submit]:hover {
+        color: white;
+        background-color: #111;
+    }
+
+    input[type=submit]:focus {
+        color: white;
+        background-color: #ad0000;
+    }
+
+.title {
+    font-size: 75px;
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: underline black;
+    color: #ad0000;
+    font-weight: bold;
+}
+
+.banner {
+    padding: 5px;
+    text-align: center;
+    background-color: #7a7878;
+    color: white;    
+}
+    .banner img {
+        padding: 0px 20px 20px;
+        vertical-align: middle;
+    }
+    .bannerinfo {
+        margin-bottom: 0px;
+    }
+    .intro {
+        margin-top: 0px;
+        font-style: italic;
+    }
