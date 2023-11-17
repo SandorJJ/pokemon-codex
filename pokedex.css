@@ -1,0 +1,71 @@
+#fire {
+    background-color: #fc6b03;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    border: solid 1px black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#water {
+    background-color: #0384fc;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    border: solid 1px black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#grass {
+    background-color: #40db3d;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    border: solid 1px black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#poison {
+    background-color: #5f1782;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    border: solid 1px black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#flying {
+    background-color: #96cbd6;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    border: solid 1px black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+thead {
+    background: #adacac;
+    border: 2px solid black;
+}
+
+table {
+    border: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    width: 75px;
+    height: 10px;
+}
+
+.titlepokedex {
+    text-align: center;
+    text-decoration: underline;
+}
+
+tr:hover:not(.ignore) {
+    background-color: #fff5d9;
+}

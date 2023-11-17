@@ -3,6 +3,7 @@
 <head>
     <title>Pokemon Codex | Pokedex</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pokedex.css">
 </head>
 <body>
     <header>
@@ -19,11 +20,11 @@
     </header>
     <br />
     <main>
-        <br />
+        <h1 class="titlepokedex">Starter Pokedex (Gen 1 & 2)</h1>
         <div class="pokedex">
             <table>
                 <thead>
-                    <tr>
+                    <tr class="ignore">
                         <td>Number</td>
                         <td>Picture</td>
                         <td>Name</td>
@@ -46,9 +47,10 @@
                         <span>Bulbasaur</span>
                     </td>
                     <td>
-                        <span>Grass</span>
+                        <span id="grass">Grass</span>
                         <br />
-                        <span>Poison</span>
+                        <br />
+                        <span id="poison">Poison</span>
                     </td>
                     <td>45</td>
                     <td>49</td>
@@ -67,9 +69,10 @@
                         <span>Ivysaur</span>
                     </td>
                     <td>
-                        <span>Grass</span>
+                        <span id="grass">Grass</span>
                         <br />
-                        <span>Poison</span>
+                        <br />
+                        <span id="poison">Poison</span>
                     </td>
                     <td>60</td>
                     <td>62</td>
@@ -88,9 +91,10 @@
                         <span>Venusaur</span>
                     </td>
                     <td>
-                        <span>Grass</span>
+                        <span id="grass">Grass</span>
                         <br />
-                        <span>Poison</span>
+                        <br />
+                        <span id="poison">Poison</span>
                     </td>
                     <td>80</td>
                     <td>82</td>
@@ -109,7 +113,7 @@
                         <span>Charmander</span>
                     </td>
                     <td>
-                        <span>Fire</span>
+                        <span id="fire">Fire</span>
                     </td>
                     <td>39</td>
                     <td>52</td>
@@ -128,7 +132,7 @@
                         <span>Charmeleon</span>
                     </td>
                     <td>
-                        <span>Fire</span>
+                        <span id="fire">Fire</span>
                     </td>
                     <td>58</td>
                     <td>64</td>
@@ -147,9 +151,10 @@
                         <span>Charizard</span>
                     </td>
                     <td>
-                        <span>Fire</span>
+                        <span id="fire">Fire</span>
                         <br />
-                        <span>Flying</span>
+                        <br />
+                        <span id="flying">Flying</span>
                     </td>
                     <td>78</td>
                     <td>84</td>
@@ -168,7 +173,7 @@
                         <span>Squirtle</span>
                     </td>
                     <td>
-                        <span>Water</span>
+                        <span id="water">Water</span>
                     </td>
                     <td>44</td>
                     <td>48</td>
@@ -187,7 +192,7 @@
                         <span>Wartortle</span>
                     </td>
                     <td>
-                        <span>Water</span>
+                        <span id="water">Water</span>
                     </td>
                     <td>59</td>
                     <td>63</td>
@@ -206,7 +211,7 @@
                         <span>Blastoise</span>
                     </td>
                     <td>
-                        <span>Water</span>
+                        <span id="water">Water</span>
                     </td>
                     <td>79</td>
                     <td>83</td>
@@ -216,7 +221,177 @@
                     <td>78</td>
                     <td>530</td>
                 </tr>
-
+                <tr>
+                    <td>
+                        <span>0152</span>
+                    </td>
+                    <td><img src="../assets/chikorita.png" width="100" /></td>
+                    <td>
+                        <span>Chikorita</span>
+                    </td>
+                    <td>
+                        <span id="grass">Grass</span>
+                    </td>
+                    <td>45</td>
+                    <td>49</td>
+                    <td>65</td>
+                    <td>49</td>
+                    <td>65</td>
+                    <td>45</td>
+                    <td>318</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0153</span>
+                    </td>
+                    <td><img src="../assets/bayleef.png" width="100" /></td>
+                    <td>
+                        <span>Bayleef</span>
+                    </td>
+                    <td>
+                        <span id="grass">Grass</span>
+                    </td>
+                    <td>60</td>
+                    <td>62</td>
+                    <td>80</td>
+                    <td>63</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>405</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0154</span>
+                    </td>
+                    <td><img src="../assets/meganium.png" width="100" /></td>
+                    <td>
+                        <span>Meganium</span>
+                    </td>
+                    <td>
+                        <span id="grass">Grass</span>
+                    </td>
+                    <td>80</td>
+                    <td>82</td>
+                    <td>100</td>
+                    <td>83</td>
+                    <td>100</td>
+                    <td>80</td>
+                    <td>525</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0155</span>
+                    </td>
+                    <td><img src="../assets/cyndaquil.png" width="100" /></td>
+                    <td>
+                        <span>Cyndaquil</span>
+                    </td>
+                    <td>
+                        <span id="fire">Fire</span>
+                    </td>
+                    <td>39</td>
+                    <td>52</td>
+                    <td>43</td>
+                    <td>8603</td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>309</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0156</span>
+                    </td>
+                    <td><img src="../assets/quilava.png" width="100" /></td>
+                    <td>
+                        <span>Quilava</span>
+                    </td>
+                    <td>
+                        <span id="fire">Fire</span>
+                    </td>
+                    <td>58</td>
+                    <td>64</td>
+                    <td>58</td>
+                    <td>80</td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>405</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0157</span>
+                    </td>
+                    <td><img src="../assets/typhlosion.png" width="100" /></td>
+                    <td>
+                        <span>Typhlosion</span>
+                    </td>
+                    <td>
+                        <span id="fire">Fire</span>
+                    </td>
+                    <td>78</td>
+                    <td>84</td>
+                    <td>78</td>
+                    <td>109</td>
+                    <td>85</td>
+                    <td>100</td>
+                    <td>534</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0158</span>
+                    </td>
+                    <td><img src="../assets/totodile.png" width="100" /></td>
+                    <td>
+                        <span>Totodile</span>
+                    </td>
+                    <td>
+                        <span id="water">Water</span>
+                    </td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>64</td>
+                    <td>44</td>
+                    <td>48</td>
+                    <td>43</td>
+                    <td>314</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0159</span>
+                    </td>
+                    <td><img src="../assets/croconaw.png" width="100" /></td>
+                    <td>
+                        <span>Croconaw</span>
+                    </td>
+                    <td>
+                        <span id="water">Water</span>
+                    </td>
+                    <td>65</td>
+                    <td>80</td>
+                    <td>80</td>
+                    <td>59</td>
+                    <td>63</td>
+                    <td>58</td>
+                    <td>405</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>0160</span>
+                    </td>
+                    <td><img src="../assets/feraligatr.png" width="100" /></td>
+                    <td>
+                        <span>Feraligatr</span>
+                    </td>
+                    <td>
+                        <span id="water">Water</span>
+                    </td>
+                    <td>85</td>
+                    <td>105</td>
+                    <td>100</td>
+                    <td>79</td>
+                    <td>83</td>
+                    <td>78</td>
+                    <td>530</td>
+                </tr>
             </table>
         </div>
         <br />
