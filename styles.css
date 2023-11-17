@@ -46,7 +46,7 @@ main {
     }
 
 .navigationbar ul li img {
-    padding: 5px 10px 0px;
+    padding: 7px;
     vertical-align: middle;
 }
 
@@ -58,18 +58,22 @@ input[type=checkbox]:checked {
     accent-color: #ad0000;
 }
 
+input[type=range] {
+    accent-color: #ad0000;
+}
+
 input[type=submit] {
     color: white;
     background-color: #333;
+    width: 90px;
+    height: 30px;
 }
 
     input[type=submit]:hover {
-        color: white;
         background-color: #111;
     }
 
     input[type=submit]:focus {
-        color: white;
         background-color: #ad0000;
     }
 
@@ -116,3 +120,45 @@ input[type=submit] {
    .question {
        font-weight: bold;
    }
+
+.form {
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+    background: #adacac;
+    width: 60%;
+    border-radius: 50px;
+    outline: 2px solid #333;
+}
+
+.form h1 {
+    text-decoration: underline;
+}
+
+.quizintro {
+    padding: 20px 50px 0px;
+}
+
+table {
+    font-size: 20px;
+    color: black;
+    border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+table img {
+    vertical-align: middle;
+}
