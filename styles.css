@@ -34,7 +34,7 @@ main {
         text-align: center;
         padding: 18px 18px;
         text-decoration: none;
-    }
+}
 
 .navigationbar ul li a:hover:not(.active) {
             background-color: #111;
@@ -163,3 +163,11 @@ table img {
     vertical-align: middle;
 }
 
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navigationbar ul li .special {
+    padding: 0px;
+}
